@@ -1,0 +1,116 @@
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+}
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* contact style */
+.contact{
+  margin: auto;
+  width: 80%;
+  
+}
+fieldset{
+  width: fit-content;
+}
+.person p{
+  display: inline-flexbox;
+  text-align: left;
+  justify-content:space-evenly
+}
+.contact label{
+  color: rgb(41, 8, 190);
+  
+} 
+.person  label{
+  display: block;
+}
+.payment label{
+  display: block;
+}
+
+.contact li{
+  display:inline;
+}
+form{
+  margin-left: 2rem;
+  background-color: rgb(233, 233, 190);
+}
+/* payment style */
+.payment{
+  margin: auto;
+  width: 80%;
+}
+.payment label{
+  color: brown;
+}
+#total{
+  border: none;
+  margin-left: .5rem;
+}
+/* shopping item style */
+.gridContainer{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  
+}
+.gridContainer div{
+  border: rgb(75, 197, 71) solid 1px;
+}
+.itemImage{
+  border: rgb(75, 197, 71) solid 1px;
+}
+.itemValue {
+  padding-top: 37%;
+  border: rgb(75, 197, 71) solid 1px;
+}
+.itemAmount{
+  padding-top: 20%;
+  border: rgb(75, 197, 71) solid 1px;
+}
+.itemSubtotal{
+  padding-top: 20%;
+  border: rgb(75, 197, 71) solid 1px;
+}
+.itemAmount input{
+  border: none;
+  width: 50%;
+  padding-left: 20%;
+}
+.itemSubtotal input{
+  width: 50%;
+  border: none;
+  padding-left: 20%;
+}
+/* summary style */
+.summary{
+  margin: auto;
+  width: 80%;
+}
+ol {
+  list-style-type: none;
+   margin: 1rem;
+  padding: 10px; 
+}
+/* alert style */
+.alert{
+  color: red;
+}
